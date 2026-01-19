@@ -3,7 +3,7 @@
     <el-header class="header">
       <div class="logo">Graduation Platform</div>
       <div class="user-info">
-        <span>{{ userStore.userInfo.name }} ({{ userStore.userInfo.role }})</span>
+        <span v-if="userStore.userInfo">{{ userStore.userInfo.name }} ({{ userStore.userInfo.role }})</span>
         <el-button type="text" @click="handleLogout">Logout</el-button>
       </div>
     </el-header>
