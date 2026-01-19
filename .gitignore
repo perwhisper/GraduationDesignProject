@@ -1,0 +1,26 @@
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend
+backend/target/
+backend/help.md
+backend/*.log
+!backend/src/main/resources/*.sql
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.env.local
+
+# Docker
+.env
